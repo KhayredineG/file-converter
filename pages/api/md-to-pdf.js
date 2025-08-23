@@ -75,7 +75,7 @@ export default async function handler(req, res) {
 
     // Generate PDF using Puppeteer
     const browser = await puppeteer.launch({
-      headless: true,
+      headless: "new", // Use "new" for new headless mode
       args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
     
