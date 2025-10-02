@@ -14,13 +14,13 @@
   "description": "",
   "dependencies": {
     "formidable": "^3.5.4",
-    "marked": "^16.2.0",
+    "marked": "^16.3.0",
     "multer": "^2.0.2",
     "next": "^15.5.0",
     "pdf-parse": "^1.1.1",
-    "puppeteer": "^24.17.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "turndown": "^7.2.1"
+    "turndown": "^7.2.1",
+    "wkhtmltopdf": "^0.4.0"
   }
 }
